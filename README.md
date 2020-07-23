@@ -1,6 +1,6 @@
 # Consession
 
-An easy-to-use session for Flutter that works on mobile, web and (hopefully) desktop apps.
+Adds session support to Flutter. Works with mobile, web and (hopefully) desktop build.
 
   - Implement with one line of code
   - Simple and lightweight
@@ -25,8 +25,10 @@ or
 ```sh
 var session = Concession();
 await session.set("token", myJWTToken);
-await session.set("another", "Hit me baby one more time");
-await session.set("andAnother", "But wait, there's more!");
+await session.set("name", "jhourlad");
+await session.set("id", 1);
+await session.set("price", 10.50);
+await session.set("isOK", true);
 ```
 
 ### Read values from the session:
