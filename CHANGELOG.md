@@ -4,4 +4,7 @@
 ## [0.0.2] - 2020-07-22
 * Bug fixes and optimizations
 
+## [0.0.3] - 2020-07-22
+* More bug fixes and updates
+
 
