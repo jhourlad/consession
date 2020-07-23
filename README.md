@@ -17,14 +17,16 @@ dependencies:
   consession: ^0.0.1
 ```
 
-### Initialization:
-```sh
-var session = Consession();
-```
-
 ### Write values to the session:
 ```sh
 await Consession().set("token", myJWTToken);
+```
+or
+```sh
+var session = Concession();
+await session.set("token", myJWTToken);
+await session.set("another", "Hit me baby one more time");
+await session.set("andAnother", "But wait, there's more!");
 ```
 
 ### Read values from the session:
@@ -32,4 +34,4 @@ await Consession().set("token", myJWTToken);
 dynamic token = await Consession().get("token");
 ```
 
-Session persists even after navigating to other pages.
+Session persists throughout the app's lifetime.
