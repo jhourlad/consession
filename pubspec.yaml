@@ -1,5 +1,6 @@
 name: consession
-description: A simple session package for Flutter that works on both mobile, web and (hopefully) desktop apps. 
+description: A simple session package for Flutter that works on both mobile, web and (hopefully) desktop apps.
+author: jhourlad<jhourlad01@gmail.com>
 version: 0.0.2
 homepage: https://github.com/jhourlad/consession
 
