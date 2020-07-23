@@ -3,7 +3,7 @@ library consession;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Consession {
-  Map _session;
+  Map _session = {};
 
   SharedPreferences prefs;
 
