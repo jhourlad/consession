@@ -51,6 +51,6 @@ class Consession {
         break;
     }
 
-    this._session[key] = value;
+    this._session.putIfAbsent(key, () => value);
   }
 }
