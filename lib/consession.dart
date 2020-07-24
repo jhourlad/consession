@@ -2,20 +2,28 @@ library consession;
 
 import 'package:shared_preferences/shared_preferences.dart';
 
+// Concession
+// A package that adds session functionality to Flutter
+
 class Consession {
+  // Initialize session container
   Map _session = {};
 
+  // Yes, it uses SharedPreferences
   SharedPreferences prefs;
 
+  // Initialize the SharedPreferences instance
   Future _initSharedPrefs() async {
     this.prefs = await SharedPreferences.getInstance();
   }
 
+  // Item getter
   Future get(key) async {
     await _initSharedPrefs();
     return this.prefs.get(key);
   }
 
+  // Item setter
   Future set(key, value) async {
     await _initSharedPrefs();
 
@@ -51,6 +59,7 @@ class Consession {
         break;
     }
 
+    // Add item to session container
     this._session.putIfAbsent(key, () => value);
   }
 }
