@@ -2,21 +2,6 @@
 
 Adds session support to Flutter. Works with mobile, web and (hopefully) desktop build.
 
-  - Implement with one line of code
-  - Simple and lightweight
-  - Covid-free!
-
-### How to use
-
-Add this to your package's pubspec.yaml file:
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-dependencies:
-  consession: ^0.0.1
-```
-
 ### Write values to the session:
 ```sh
 await Consession().set("token", myJWTToken);

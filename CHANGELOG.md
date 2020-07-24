@@ -7,4 +7,6 @@
 ## [0.0.3] - 2020-07-22
 * More bug fixes and updates
 
+## [0.0.4] - 2020-07-24
+* Added example/
 
