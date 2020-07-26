@@ -19,4 +19,7 @@
 ## [0.0.6-deprecated] - 2020-07-26
 Deprecated in favor flutter_session https://pub.dev/packages/flutter_session
 
+## [0.0.6] - 2020-07-26
+Deprecated in favor flutter_session https://pub.dev/packages/flutter_session
+
 
