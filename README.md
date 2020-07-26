@@ -1,3 +1,3 @@
-# FlutterSession
+# Consession
 
-NOTE: Concession has been ported to [FlutterSession](https://pub.dev/packages/flutter_session) 
+NOTE: Deprecated in favor of [flutter_session](https://pub.dev/packages/flutter_session) 

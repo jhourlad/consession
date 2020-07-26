@@ -1,10 +1,10 @@
-library flutter_session;
+library consession;
 
 import 'package:shared_preferences/shared_preferences.dart';
 
 // Concession
 // A package that adds session functionality to Flutter
-class FlutterSession {
+class Consession {
   // Initialize session container
   Map _session = {};
 
