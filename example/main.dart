@@ -1,4 +1,4 @@
-import 'package:consession/consession.dart';
+import 'package:flutter_session/flutter_session.dart';
 import 'package:flutter/material.dart';
 
 class Page1 extends StatelessWidget {
@@ -15,7 +15,7 @@ class Page1 extends StatelessWidget {
 
   Future<void> saveData(context) async {
     String token = 'The token you got from the API';
-    await Consession().set('token', token);
+    await FlutterSession().set('token', token);
     Navigator.push(context, MaterialPageRoute(builder: (_context) => Page2()));
   }
 }
@@ -25,7 +25,7 @@ class Page2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
         child: FutureBuilder(
-            future: Consession().get('token'),
+            future: FlutterSession().get('token'),
             builder: (context, snapshot) {
               return Text(snapshot.hasData ? snapshot.data : 'Loading...');
             }

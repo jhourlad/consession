@@ -13,3 +13,6 @@
 ## [0.0.5] - 2020-07-24
 * Code comments
 
+## [0.0.6] - 2020-07-26
+* Move to FlutterSession
+

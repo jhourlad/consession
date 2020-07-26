@@ -1,8 +1,8 @@
-name: consession
+name: flutter_session
 description: A simple session package for Flutter that works on both mobile, web and (hopefully) desktop apps.
 author: jhourlad<jhourlad01@gmail.com>
 version: 0.0.5
-homepage: https://github.com/jhourlad/consession
+homepage: https://github.com/jhourlad/flutter_session
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
